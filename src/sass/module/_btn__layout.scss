@@ -1,0 +1,14 @@
+@use "global" as *;
+.btn__layout {
+  display: block;
+  width: rem(335);
+  position: relative;
+  margin: 0 auto;
+  margin-top: rem(50);
+}
+
+.btn__layout::before {
+  content: "";
+  display: block;
+  padding-top: 14.925%;
+}
